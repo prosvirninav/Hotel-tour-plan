@@ -47,6 +47,11 @@ $(document).ready(function () {
     modalOverlay.removeClass("modal__overlay--visible");
     modalDialog.removeClass("modal__dialog--visible");
   }
+
+  function preventDigits(sender) {
+    sender.value = sender.value.replace(/\d/g, "");
+  }
+
   //Обработка форм
   $(".form").each(function () {
     $(this).validate({
