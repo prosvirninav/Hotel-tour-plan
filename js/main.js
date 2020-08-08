@@ -62,7 +62,7 @@ $(document).ready(function () {
         },
         tel: {
           required: "Phone is required",
-          minlength: "Longer than 7 symbol"
+          minlength: "Longer than 11 symbol"
         },
       },
     });
