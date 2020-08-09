@@ -528,7 +528,8 @@ template { display: none; }
   .footer-bottom { -ms-grid-column: 1; grid-column: 1; width: 92%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -ms-flex-wrap: wrap; flex-wrap: wrap; }
   .search__input { width: 320px; } }
 
-@media (max-height: 480px) { .modal__input { height: 25px; }
-  .modal__message { height: 85px; }
+@media (max-height: 480px) { .modal__title { font-size: 13px; line-height: 18px; }
+  .modal__input { height: 25px; }
+  .modal__message { height: 33px; padding: 5px 23px; }
   .modal__button { height: 25px; padding: 0; } }
 /*# sourceMappingURL=style.css.map */
