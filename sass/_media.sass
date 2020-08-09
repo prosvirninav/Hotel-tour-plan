@@ -393,8 +393,16 @@
       width: 250px
     &__button
       width: 100%
+
+@media (max-width: 330px)
+  .footer
+    &__input
+      &-group 
+        flex-basis: 97%
+    &__message
+      flex-basis: 97%
   
-@media (max-width: 320px)
+@media (max-width: 319px)
   .navbar
     &__search
       &--mobile
@@ -414,6 +422,19 @@
       display: flex
       justify-content: flex-start
       flex-wrap: wrap
+  .search
+    &__input
+      width: 320px
+  
+@media (max-height: 480px)
+  .modal
+    &__input
+      height: 25px
+    &__message
+      height: 85px
+    &__button
+      height: 25px
+      padding: 0
     
     
 
